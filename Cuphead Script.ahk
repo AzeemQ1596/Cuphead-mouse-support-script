@@ -1,4 +1,4 @@
-#IfWinActive ahk_classUnityWndClass
+#IfWinActive ahk_classUnityWndClass ;so the script only affects the game window
 ~*$RButton::
 While Getkeystate("RButton","P")
       {
